@@ -17,14 +17,15 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
 		integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
 		crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="styles.css">
+	<link rel="stylesheet" href="styles.css">
 	<script src="script.js"></script>
 </head>
 
 <body>
 
 	<nav class="navbar">
-		<a href="https://www.softwareone.com/es-es" class="navbar-link"><img src="img/logo/swo_logo1.png" alt="logo"></a>
+		<a href="https://www.softwareone.com/es-es" class="navbar-link"><img src="img/logo/swo_logo1.png"
+				alt="logo"></a>
 		<a href="#" class="navbar-link" id="instrucciones">Info</a>
 	</nav>
 
@@ -33,8 +34,8 @@
 			<form class="decode-form">
 				<div class="form-group mb-2">
 					<label for="code">Código:</label>
-					<textarea name="codigo" id="codigo" cols="80" rows="8" ></textarea>
-                    <div id="result" class="result"></div>
+					<textarea name="codigo" id="codigo" cols="80" rows="8"></textarea>
+					<div id="result" class="result"></div>
 				</div>
 				<button type="submit" id="decodificar" class="btn boton-decoder">Decodificar</button>
 			</form>
@@ -48,22 +49,218 @@
 		<div class="chevron">
 			<a href="#begin"><img src="img/icons/chevron-abajo.png" alt="chevron"></a>
 		</div>
-    </div>
+	</div>
 
-	<div class="background2" id="begin"></div>
+	<div id="all_cards" class="container">
+		<div class="row">
+			<div class="background2" id="begin">
+				<div class="col-sm-3">
+					<div class="card">
+						<div class="card-body">
+							<h5 class="card-title">Código HTML y CSS</h5>
+							<p class="card-text">Nos encontramos un código HTML y otro CSS los cuales deberemos copiar
+								en <a href="http://cubicfactory.com/jseditor/welcome/130/edit" target="_blank">esta
+									página</a>,
+								la primera prueba es discernir donde va cada uno de ellos, una vez que le demos a
+								ejecutar podemos
+								ver
+								que el código no se ejecuta correctamente. Ahora toca arreglarlo (el 90% de la tarea de
+								un
+								informático
+								siempre es resolver errores)</p>
+							<p>Debemos tener en cuenta que todo debe ir indentado, es decir contenido uno dentro de
+								otro, todo lo
+								que se
+								abra debe ser cerrado.</p>
 
-	<div class="background3"></div>
+							<div class="container-text-to-copy">
 
-	<div class="background4"></div>
+								<div class="text-to-copy text-to-copy-one">
+									<pre>
+&lt;!-- index.html --&gt;
+				
+&lt;!DOCTYPE html&gt;
+&lt;html lang="es"&gt;
+&lt;head&gt;
+&lt;meta charset="UTF-8"&gt;
+&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+&lt;meta http-equiv="X-UA-Compatible" content="ie=edge"&gt;
+&lt;title&gt;Las bases del código HTML&lt;/title&gt;
+&lt;link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet"&gt; 
+&lt;link rel="stylesheet" href="styles.css"&gt;
+&lt;/head&gt;
+&lt;body&gt;
+				
+&lt;h2&gt;¿Qué es HTML?&lt;/h2&gt;
+&lt;br/&gt;
+&lt;p&gt;Aprenderemos como escribir la &lt;em&gt;estructura&lt;/em&gt; de un sitio web con HTML. &lt;i&gt;01010011&lt;/i&gt;&lt;/p&gt;
+&lt;figure class="post_image"&gt;&lt;img alt="" src="https://cms-assets.tutsplus.com/uploads/users/30/posts/23763/image/dochtml3-new.svg" loading="lazy"&gt;&lt;/figure&gt;
+&lt;p&gt;Por ejemplo, no podemos escribir un párrafo desde el teclado en nuestro editor de texto y esperar que un navegador sepa sencillamente que esto es un párrafo. Los párrafos de texto tiene que estar dentro de la clasificación HTML correcta, un párrafo o un elemento &lt;code class="inline"&gt;&lt;p&gt;&lt;/code&gt; (cualquier señal de texto con buen aspecto como &lt;code class="inline"&gt;&lt;p&gt;&lt;/code&gt; aquí solamente muestra que este texto también es código)&lt;/p&gt;
+&lt;h2&gt;Elementos&lt;/h2&gt;
+&lt;br/&gt;
+&lt;p&gt;HTML está construid&lt;i&gt;0&lt;/i&gt; de &lt;em&gt;elementos&lt;/em&gt; que tienen significados importantes, como el elemento de párrafo que se menciono arriba. Cada elemento tiene &lt;i&gt;110&lt;/i&gt; una etiqueta de apertura (al principio) y una de cierre (al final), con el contenido del sitio escrito entre estas dos etiquetas.&lt;/p&gt; &lt;p&gt;Estas etiquetas de apertura  y &lt;i&gt;1111&lt;/i&gt; cierre para cada elemento están escritas dentro de corchetes angulares (como estos: &lt;code class="inline"&gt;&lt; &gt;&lt;/code&gt;, aunque la etiqueta de cierre tiene una barra inclinada (como esta: &lt;code class="inline"&gt;&lt;  /  &gt;&lt;/code&gt;).&lt;/p&gt;
+&lt;figure class="post_image"&gt;&lt;img alt="" src="https://cms-assets.tutsplus.com/uploads/users/30/posts/23763/image/tags3.svg" loading="lazy"&gt;&lt;/figure&gt;
+				
+&lt;h2&gt;Construyendo una Estructura&lt;/h2&gt;
+&lt;br/&gt;
+				
+&lt;p&gt;Ah&lt;i&gt;0&lt;/i&gt;ra podemos añadir nuestra estructura.&lt;i&gt;1100&lt;/i&gt; Nuevamente, piensa en esto como cuando unes la estructura de un edificio, así que necesitamos establecer &lt;i&gt;1100&lt;/i&gt;la estructura en su lugar.&lt;/p&gt; 
+&lt;p&gt;La primera pieza de HTML que escribiremos es el &lt;code class="inline"&gt;&lt;!DOCTYPE html&gt;&lt;/code&gt; el cual le dice al navegador “¡Hey, éste es un documento HTML!”.&lt;/p&gt;
+&lt;pre class="brush: html noskimlinks noskimwords"&gt;&lt;!DOCTYPE html&gt;&lt;/pre&gt;
+				
+&lt;p&gt;Luego, &lt;i&gt;1110100&lt;/i&gt;debajo de eso, necesitamos el elemento &lt;code class="inline"&gt;&lt;html&gt;&lt;/code&gt;:&lt;/p&gt;
+&lt;pre class="brush: html noskimlinks noskimwords"&gt;&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;/html&gt;&lt;/pre&gt; &lt;p&gt;Todo lo demás será &lt;i&gt;anidado&lt;/i&gt; dentro de este elemento.&lt;/p&gt;
+&lt;p&gt;Hacemos el código de nuestro archivo HTML más fácil de leer poniendo elementos &lt;em&gt;anidados&lt;/em&gt; más a &lt;i&gt;0111&lt;/i&gt;la derecha.  Como esto:&lt;/p&gt;
+&lt;figure class="post_image"&gt;&lt;img alt="" src="https://cms-assets.tutsplus.com/uploads/users/30/posts/23763/image/closelevel3.svg" loading="lazy"&gt;&lt;/figure&gt;
+				
+&lt;p&gt;Es muy fácil olvidar cerrar las etiquetas, lo cual puede causar algunos &lt;em&gt;errores&lt;/em&gt; en nuestro sitio web. Queremos asegurarnos que &lt;i&gt;todas&lt;/i&gt; las etiquetas abiertas tienen una etiqueta de cierre.&lt;/p&gt;
+&lt;figure class="post_image"&gt;&lt;img alt="" src="https://cms-assets.tutsplus.com/uploads/users/30/posts/23763/image/closetag3.svg" loading="lazy"&gt;&lt;/figure&gt;
+&lt;p&gt;¡Bueno, parece como si todo estuviera encerrado! Es el momento de empezar añadiendo contenido a esta&lt;i&gt;0111&lt;/i&gt; estructura super sólida que hemos creado.&lt;/p&gt; 
+				
+&lt;h3&gt;Notas rápidas sobre Notas&lt;/h3&gt; 
+&lt;br&gt;
+&lt;p&gt;HTML nos deja escribir notas útiles dentro de nuestro trabajo. Estas notas no se muestran en nuestro sitio web, pero son magnificas para agregar pedacitos de información útiles para otros diseñadores que busquen en nuestro código. &lt;/p&gt;
+							
+&lt;pre class="brush: html noskimlinks noskimwords"&gt;&lt;!-- No debería ser visible desde el navegador pero si en el código --&gt;&lt;/pre&gt; 
+&lt;/body&gt;
+&lt;/html&gt;
+								</pre>
+								</div>
+								<div class="text-to-copy text-to-copy-two">
+									<pre>
+/*CSS*/
+				
+* {
+margin: 0px;
+padding: 0px;
+background-color:ivory;
+color: black;
+}    
+				
+body {
+min-height: 100vh;
+font-family: 'Lucida Sans';
+color: #131520;
+font-size: 20px;
+font-weight: 400;
+} 
+				
+.post_image{
+width: 70%;
+margin-left: 10%;
+margin-right: 10%;				
+}
+				
+h2, h3{
+text-align: center;
+font-weight: bold;
+margin-top: 3%;
+}
+				
+p{
+text-align: justify;
+font-size: large;
+margin-left: 10%;
+margin-right: 10%;
+margin-top: 3%;
+margin-bottom: 3%;
+}
+				
+pre{
+margin-left: 15%;
+margin-right: 10%;
+margin-top: 5%;
+margin-bottom: 5%;
+}
+				
+i{
+font-size: x-large;
+color:cadetblue;
+}
+								</pre>
+								</div>
+							</div>
+						</div>
+						<div class="card-copy-buttons">
+							<button class="btn copy-button-one"><img src="img/icons/copy.png" alt=""></button>
+							<button class="btn copy-button-two"><img src="img/icons/copy.png" alt=""></button>
+						</div>
+						<div class="card-body">
+							<p>👉<a href="#" class="card-link">Enlace asociado</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="background3">
+				<div class="col-sm-3">
+					<div class="card">
+						<img src="img/cards/python-card.webp" class="card-img-top" alt="python">
+						<div class="card-body">
+							<h5 class="card-title">Python</h5>
+							<p class="card-text">Algo ha pasado en este código y nos faltan datos para poder obtener la
+								<i>“flag”</i> de este ejercicio, pensad qué resultado necesitamos y cómo podríamos
+								llamar a los elementos necesarios.</p>
+						</div>
+						<div class="card-body">
+							<p>👉 <a href="https://www.online-python.com/Brg6EDKWHR" target="_blank"
+									class="card-link">Usa el siguiente enlace para la resolución del ejercicio.</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="background4">
+				<div class="col-sm-3">
+					<div class="card">
+						<div class="card-body">
+							<i class="fa-regular fa-envelope fa-2xl m-4"></i>
+							<h5 class="card-title mb-4">Mail searching</h5>
+							<p class="card-text">Hemos conseguido una copia local de los correos electrónicos donde está
+								nuestra tercera flag, ahora toca agudizar el ojo y buscar cuál puede ser.</p>
+							<p class="card-text">Un trabajo muy importante para cualquier informático es leer y
+								discernir, todo lo que encuentras no tiene por qué ser la solución, hay que fijarse
+								bien, la verdad está ahí fuera.</p>
+							<div class="container-text-to-copy">
+								<p><i class="fa-solid fa-arrow-down"></i> Descarga el archivo y abrelo con tu navegador
+									<i class="fa-solid fa-arrow-down"></i></p>
+									<a href="documentos/TakeOutGmail.mbox" download>
+										<button class="btn copy-button">Descargar</button>
+									  </a>
+							</div>
+						</div>
+					</div>
+
+					<div class="card" id="exercise4">
+						<div class="card-body">
+							<h5 class="card-title">Ingeniería inversa</h5>
+							<p class="card-text">Una vez hemos pasado un software por un programa decodificador podemos
+								tener acceso
+								a su código fuente,
+								en este código ha sido escondida nuestra última flag pero, atención, no es tan fácil
+								como parece,
+								creo que hay más información a la que tenemos que prestar atención.</p>
+						</div>
+						<p>👉 <a href="https://github.com/hackathon-swo/goldMedal" target="_blank"
+								class="card-link">Click aquí para ir a la página del último ejercicio</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div>
 
 	<!-- FOOTER -->
 	<footer class="text-center text-white" style="background-color: rgb(165, 17, 41);">
 		<div class="container pt-3">
 			<section class="mb-4">
-				<a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/softwareone/" 
-				role="button" data-mdb-ripple-color="dark"><img src="/img/icons/instagram.png" alt="instagram"></a>
-				<a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.linkedin.com/company/softwareone/?originalSubdomain=nl" 
-				role="button" data-mdb-ripple-color="dark"><img src="/img/icons/linkedin.png" alt="linkedin"></a>
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/softwareone/"
+					role="button" data-mdb-ripple-color="dark"><img src="/img/icons/instagram.png" alt="instagram"></a>
+				<a class="btn btn-link btn-floating btn-lg text-dark m-1"
+					href="https://www.linkedin.com/company/softwareone/?originalSubdomain=nl" role="button"
+					data-mdb-ripple-color="dark"><img src="/img/icons/linkedin.png" alt="linkedin"></a>
 			</section>
 		</div>
 		<div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);" id="footer_text">

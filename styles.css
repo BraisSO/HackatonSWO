@@ -191,6 +191,13 @@ h2{
   margin-bottom: 8em;
 }
 
+.background5 {
+  background-image: url(img/background/bg_building.png);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
+
 /* CARDS */
 
 .card {
@@ -222,6 +229,11 @@ h2{
 .copy-button {
   background-color: rgb(165, 17, 41);
   color: white;
+}
+
+.all_cards {
+  display: flex;
+  justify-content: space-between;
 }
 
 /* LINKS AND HOVERS */
