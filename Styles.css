@@ -24,7 +24,11 @@ textarea[name="codigo"] {
 .desplazar {
   height: 100%;
   width: 7%;
-  background-color: rgb(165, 17, 41);
+  background-color: black;
+  color: white;
+}
+.desplazar:hover{
+  background-color: rgb(165,17,41);
 }
 
 .show {
@@ -79,6 +83,12 @@ body {
   z-index: 1;
 }
 
+.navbar img{
+  width: 80px;
+  height: auto;
+  margin: 10px 0 10px 0
+}
+
 .navbar-link {
   color: white;
   text-decoration: none;
@@ -112,6 +122,17 @@ body {
   margin: 0;
 }
 
+button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+button>img{
+  height: 35px;
+  width: auto;
+}
+
 /* CONJUNTO DE BACKGROUNDS */
 body{
   background-color: black;
@@ -131,6 +152,16 @@ body{
 .background1>h1,h2{
   color:white
 }
+
+.chevron{
+  position: absolute;
+  bottom: 3em;
+}
+.chevron>img{
+  height: 50px;
+  width: auto;
+}
+
 
 h2{
   position: absolute;
