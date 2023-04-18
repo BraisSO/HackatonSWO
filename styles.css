@@ -168,8 +168,6 @@ h2{
   bottom: 3em;
 }
 
-
-
 .background2 {
   background-image: url(img/background/bg_circle.png);
   background-size: cover;
@@ -184,3 +182,65 @@ h2{
   background-position: center center;
   height: 100vh;
 }
+
+/* CARDS */
+
+.card {
+  width: 40em;
+  background-color: rgba(60, 60, 60, 0.5);
+  color: white;
+}
+
+.card > div > h5 {
+  color: rgb(165, 17, 41);
+}
+
+.text-to-copy {
+  border: solid black 2px;
+  padding: 1em;
+  box-sizing: border-box;
+  max-width: 40em;
+  max-height: 20em;
+  overflow: auto;
+  border-radius: 5px;
+}
+
+.container-text-to-copy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.copy-button {
+  background-color: rgb(165, 17, 41);
+  color: white;
+}
+
+/* LINKS AND HOVERS */
+
+/* unvisited link */
+a:link {
+  color: rgb(165, 17, 41);
+}
+/* visited link */
+a:visited {
+  color: rgb(165, 17, 41);
+}
+/* mouse over link */
+a:hover {
+  color: white;
+}
+/* selected link */
+a:active {
+  color: rgb(165, 17, 41);
+}
+
+::-moz-selection { /* Code for Firefox */
+  color: white;
+  background: rgb(165, 17, 41);
+}
+::selection {
+  color: white;
+  background: rgb(165, 17, 41);
+}
+
