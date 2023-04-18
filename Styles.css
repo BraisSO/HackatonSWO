@@ -1,0 +1,148 @@
+/*BARRA DE DECODIFICACIÓN LATERAL*/
+textarea[name="codigo"] {
+  resize: none;
+}
+
+.decode-container {
+  position: sticky;
+  top: 25%;
+
+  background-color: red;
+  border-radius: .5em;
+  height: 20em;
+  width: 50em;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  transition: transform 0.5s;
+}
+
+.desplazar {
+  height: 100%;
+  width: 7%;
+}
+
+.show {
+  transform: translateX(70%);
+  margin-right: 27em;
+}
+
+.hide {
+  transform: translateX(-47%);
+}
+
+
+.decode-form {
+  background-color: aqua;
+  display: flex;
+  flex-direction: row;
+  margin-left: 5em;
+  align-items: center;
+}
+
+.form-group {
+  background-color: blueviolet;
+  display: flex;
+  flex-direction: column;
+  margin-top: .5em;
+
+  text-align: center;
+
+}
+
+/*ESTILOS NAVBAR VERTICAL Y HORIZONTAL*/
+body {
+  background-color: black;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.navbar-link:first-child {
+  margin-left: 3em;
+}
+
+.navbar-link:last-child {
+  margin-right: 3em;
+}
+
+.vertical-nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 50px;
+  background-color: transparent;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.vertical-nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 0;
+}
+
+/* CONJUNTO DE BACKGROUNDS */
+body{
+  background-color: black;
+}
+.background1 {
+  background-image: url(img/backgrounds/ales-nesetril-Im7lZjxeLhg-unsplash.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin-bottom: 5vh;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.background1>h1,h2{
+  color:white
+}
+
+h2{
+  position: absolute;
+  bottom: 3em;
+}
+
+
+
+.background2 {
+  background-image: url(img/backgrounds/GettyImages-948600830.jpg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+  margin-bottom: 5vh;
+}
+
+.background3 {
+  background-image: url(img/backgrounds/mike-kononov-lFv0V3_2H6s-unsplash.jpeg);
+  background-size: cover;
+  background-position: center center;
+  height: 100vh;
+}
