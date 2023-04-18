@@ -5,8 +5,7 @@ $(document).ready(function () {
     });
 });
 
-
-//Decoder functionality
+// Decoder functionality
 $(document).ready(function () {
     $('#decodificar').click(function (e) {
         e.preventDefault();
@@ -19,5 +18,19 @@ $(document).ready(function () {
         }
 
         $('#result').text(textOutput);
+    });
+});
+
+// Copy-paste container
+$(document).ready(function () {
+    $('.copy-button').on('click', function () {
+        var $temp = $('<textarea>');
+        var $container = $(this).parent();
+        var $textToCopy = $container.find('.text-to-copy');
+        var $copiedText = $container.find('.copied-text');
+        $('body').append($temp);
+        $temp.val($textToCopy.text()).select();
+        document.execCommand('copy');
+        $temp.remove();
     });
 });
