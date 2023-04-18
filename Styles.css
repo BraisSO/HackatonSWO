@@ -1,13 +1,14 @@
 /*BARRA DE DECODIFICACIÓN LATERAL*/
 textarea[name="codigo"] {
   resize: none;
+  width: 100%;
 }
 
 .decode-container {
   position: sticky;
   top: 25%;
 
-  background-color: red;
+  background-color: rgb(60,60,60);
   border-radius: .5em;
   height: 20em;
   width: 50em;
@@ -23,6 +24,7 @@ textarea[name="codigo"] {
 .desplazar {
   height: 100%;
   width: 7%;
+  background-color: rgb(165, 17, 41);
 }
 
 .show {
@@ -36,21 +38,26 @@ textarea[name="codigo"] {
 
 
 .decode-form {
-  background-color: aqua;
+  background-color: rgb(60,60,60);
   display: flex;
-  flex-direction: row;
-  margin-left: 5em;
+  flex-direction: column;
   align-items: center;
+  margin: auto;
 }
 
 .form-group {
-  background-color: blueviolet;
+  background-color: rgb(165, 17, 41);
   display: flex;
   flex-direction: column;
   margin-top: .5em;
-
+  color: white;
   text-align: center;
 
+}
+
+.boton-decoder{
+  background-color: rgb(0, 100, 150);
+  color: white;
 }
 
 /*ESTILOS NAVBAR VERTICAL Y HORIZONTAL*/
@@ -110,7 +117,7 @@ body{
   background-color: black;
 }
 .background1 {
-  background-image: url(img/backgrounds/ales-nesetril-Im7lZjxeLhg-unsplash.jpeg);
+  background-image: url(img/background/bg_pc.png);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -133,7 +140,7 @@ h2{
 
 
 .background2 {
-  background-image: url(img/backgrounds/GettyImages-948600830.jpg);
+  background-image: url(img/background/bg_circle.png);
   background-size: cover;
   background-position: center center;
   height: 100vh;
@@ -141,7 +148,7 @@ h2{
 }
 
 .background3 {
-  background-image: url(img/backgrounds/mike-kononov-lFv0V3_2H6s-unsplash.jpeg);
+  background-image: url(img/background/bg_building.png);
   background-size: cover;
   background-position: center center;
   height: 100vh;
