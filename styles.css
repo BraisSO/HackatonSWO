@@ -179,6 +179,9 @@ h2{
 .background2 {
   background-image: url(img/background/bg_circle.png);
   margin-bottom: 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
 }
 
@@ -201,7 +204,7 @@ h2{
 
 .card {
   width: 40em;
-  background-color: rgba(60, 60, 60, 0.5);
+  background-color: rgba(60, 60, 60, 0.75);
   color: white;
 }
 
