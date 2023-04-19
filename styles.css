@@ -407,10 +407,11 @@ footer>div>section>a>img {
 
 /*MODAL*/
 .fade {
-  position: absolute;
+  margin-left: -70%;
+  /* position: absolute;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%); */
 }
 
 .modal-content {
@@ -469,10 +470,13 @@ footer>div>section>a>img {
 .media-desplazar{
   display: none;
 }
-
+.background1 h1{
+  text-align: center;
+}
 
 
 @media (max-width:880px) {
+  
 
   .card{
     font-size: small;
@@ -499,13 +503,15 @@ footer>div>section>a>img {
   .card{
     font-size: xx-small;
   }
-  .background1 h1{
-    text-align: center;
-  }
   
   .background4 {
     display: flex;
     align-items: center;
     flex-direction: column
   }
+  #exercise4{
+    margin-top: 2em;
+  } 
+
+
 }
