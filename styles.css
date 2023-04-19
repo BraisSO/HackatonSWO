@@ -216,12 +216,19 @@ h2{
   border: solid black 2px;
   padding: 1em;
   box-sizing: border-box;
-  max-width: 40em;
-  max-height: 20em;
   overflow: auto;
   border-radius: 5px;
+  min-width: 100%;
 }
 
+
+.card-body{
+  text-align: justify;
+}
+
+.card-body:last-child{
+  text-align: center;
+}
 .container-text-to-copy {
   display: flex;
   flex-direction: column;
@@ -263,6 +270,8 @@ h2{
   justify-content: space-around;
   flex-direction: row;
 }
+
+
 
 /*END CARD HTML CSS*/
 
