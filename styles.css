@@ -1,6 +1,7 @@
 * {
   font-family: Arial, Helvetica, sans-serif;
 }
+
 /*BARRA DE DECODIFICACIÓN LATERAL*/
 textarea[name="codigo"] {
   resize: none;
@@ -16,7 +17,7 @@ textarea[name="codigo"] {
   position: sticky;
   top: 25%;
 
-  background-color: rgb(60,60,60);
+  background-color: rgb(60, 60, 60);
   border-radius: .5em;
   height: 20em;
   width: 50em;
@@ -35,8 +36,9 @@ textarea[name="codigo"] {
   background-color: black;
   color: white;
 }
-.desplazar:hover{
-  background-color: rgb(165,17,41);
+
+.desplazar:hover {
+  background-color: rgb(165, 17, 41);
 }
 
 .show {
@@ -50,7 +52,7 @@ textarea[name="codigo"] {
 
 
 .decode-form {
-  background-color: rgb(60,60,60);
+  background-color: rgb(60, 60, 60);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -67,7 +69,7 @@ textarea[name="codigo"] {
 
 }
 
-.boton-decoder{
+.boton-decoder {
   background-color: rgb(0, 100, 150);
   color: white;
 }
@@ -91,7 +93,7 @@ body {
   z-index: 1;
 }
 
-.navbar img{
+.navbar img {
   width: 80px;
   height: auto;
   margin: 10px 0 10px 0
@@ -130,52 +132,57 @@ body {
   margin: 0;
 }
 
-button{
+button {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-button>img{
+button>img {
   height: 35px;
   width: auto;
 }
 
 /* CONJUNTO DE BACKGROUNDS */
-body{
+body {
   background-color: black;
 }
+
 .background1 {
   background-image: url(img/background/bg_pc.png);
   margin-bottom: 5vh;
-  display:flex;
+  display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
 
-.background1>h1,h2{
-  color:white
+.background1>h1,
+h2 {
+  color: white
 }
 
-.chevron{
+.chevron {
   position: absolute;
   bottom: 3em;
 }
-.chevron>img{
+
+.chevron>img {
   height: 50px;
   width: auto;
 }
 
-h2{
+h2 {
   position: absolute;
   bottom: 3em;
 }
+
 .background {
   background-size: cover;
   background-position: center center;
   height: 100vh;
 }
+
 .background2 {
   background-image: url(img/background/bg_circle.png);
   margin-bottom: 5vh;
@@ -208,7 +215,7 @@ h2{
   color: white;
 }
 
-.card > div > h5 {
+.card>div>h5 {
   color: rgb(165, 17, 41);
 }
 
@@ -221,14 +228,14 @@ h2{
   min-width: 100%;
 }
 
-
-.card-body{
+.card-body {
   text-align: justify;
 }
 
-.card-body:last-child{
+.card-body:last-child {
   text-align: center;
 }
+
 .container-text-to-copy {
   display: flex;
   flex-direction: column;
@@ -245,15 +252,24 @@ h2{
   justify-content: space-between;
 }
 
+.card-body>p:not(.card-text) {
+  text-align: center;
+}
+
+.card-body {
+  text-align: justify;
+}
+
 /* CARD HTML CSS*/
 
-.container-copy{
+.container-copy {
   display: flex;
   flex-direction: row;
 
 }
 
-.text-to-copy-one, .text-to-copy-two{
+.text-to-copy-one,
+.text-to-copy-two {
   border: solid black 2px;
   padding: 1em;
   box-sizing: border-box;
@@ -264,7 +280,7 @@ h2{
   background-color: rgba(60, 60, 60, 1);
 }
 
-.card-copy-buttons{
+.card-copy-buttons {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -281,23 +297,28 @@ h2{
 a:link {
   color: rgb(165, 17, 41);
 }
+
 /* visited link */
 a:visited {
   color: rgb(165, 17, 41);
 }
+
 /* mouse over link */
 a:hover {
   color: white;
 }
+
 /* selected link */
 a:active {
   color: rgb(165, 17, 41);
 }
 
-::-moz-selection { /* Code for Firefox */
+::-moz-selection {
+  /* Code for Firefox */
   color: white;
   background: rgb(165, 17, 41);
 }
+
 ::selection {
   color: white;
   background: rgb(165, 17, 41);
@@ -313,7 +334,7 @@ footer {
   background-color: rgba(0, 0, 0, 0.2);
 }
 
-footer > div > section > a > img {
+footer>div>section>a>img {
   width: 30px;
   height: auto;
 }
