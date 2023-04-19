@@ -235,6 +235,34 @@ h2{
   justify-content: space-between;
 }
 
+/* CARD HTML CSS*/
+
+.container-copy{
+  display: flex;
+  flex-direction: row;
+
+}
+
+.text-to-copy-one, .text-to-copy-two{
+  border: solid black 2px;
+  padding: 1em;
+  box-sizing: border-box;
+  max-width: 20em;
+  max-height: 20em;
+  overflow: auto;
+  border-radius: 5px;
+  background-color: rgba(60, 60, 60, 1);
+}
+
+.card-copy-buttons{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+/*END CARD HTML CSS*/
+
 /* LINKS AND HOVERS */
 
 /* unvisited link */

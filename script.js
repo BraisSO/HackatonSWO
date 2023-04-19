@@ -21,12 +21,27 @@ $(document).ready(function () {
     });
 });
 
-// Copy-paste container
+// Card structure
 $(document).ready(function () {
-    $('.copy-button').on('click', function () {
+    $('.copy-button-one').on('click', function () {
         var $temp = $('<textarea>');
-        var $container = $(this).parent();
-        var $textToCopy = $container.find('.text-to-copy');
+        var $container = $(this).closest('.card');
+        var $textToCopy = $container.find('.text-to-copy-one');
+        var $copiedText = $container.find('.copied-text');
+        $('body').append($temp);
+        $temp.val($textToCopy.text()).select();
+        document.execCommand('copy');
+        $temp.remove();
+    });
+});
+
+
+// Card structure
+$(document).ready(function () {
+    $('.copy-button-two').on('click', function () {
+        var $temp = $('<textarea>');
+        var $container = $(this).closest('.card');
+        var $textToCopy = $container.find('.text-to-copy-two');
         var $copiedText = $container.find('.copied-text');
         $('body').append($temp);
         $temp.val($textToCopy.text()).select();
