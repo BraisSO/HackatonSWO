@@ -13,6 +13,11 @@ textarea[name="codigo"] {
   width: 40px;
 }
 
+#info {
+  height: 40px;
+  width: 40px;
+}
+
 .decode-container {
   position: sticky;
   top: 25%;
