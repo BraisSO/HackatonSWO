@@ -301,12 +301,12 @@ h2 {
 
 /* unvisited link */
 a:link {
-  color: rgb(165, 17, 41);
+  color: rgb(88, 156, 224);
 }
 
 /* visited link */
 a:visited {
-  color: rgb(165, 17, 41);
+  color: rgb(88, 156, 224);
 }
 
 /* mouse over link */
