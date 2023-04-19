@@ -7,9 +7,10 @@ $(document).ready(function () {
 
 // Decoder functionality
 $(document).ready(function () {
-    $('#decodificar').click(function (e) {
+    $('.decode-form').submit(function (e) {
         e.preventDefault();
-        var binaryInput = $('#codigo').val().replace(/\s+/g, '');
+        var $form = $(this);
+        var binaryInput = $form.find('.codigo').val().replace(/\s+/g, '');
         var textOutput = '';
 
         for (var i = 0; i < binaryInput.length; i += 8) {
@@ -17,9 +18,10 @@ $(document).ready(function () {
             textOutput += String.fromCharCode(parseInt(byte, 2));
         }
 
-        $('#result').text(textOutput);
+        $form.find('.result').text(textOutput);
     });
 });
+
 
 // Card structure
 $(document).ready(function () {
