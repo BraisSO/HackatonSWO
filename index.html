@@ -113,12 +113,37 @@
 		</div>
 	</div>
 
+		<!-- Modal MEDIA DECODIFICADOR---------------------------------------------------------->
+
+<div class="modal fade" id="decodificadorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	<div class="modal-dialog">
+	  <div class="modal-content">
+		
+		<div class="modal-body">
+			<form class="decode-form">
+				<div class="form-group mb-5">
+					<label for="code">Código:</label>
+					<textarea name="codigo" id="codigo" cols="80" rows="8"></textarea>
+					<div id="result" class="result"></div>
+				</div>
+				<button type="submit" id="decodificar" class="btn boton-decoder">Decodificar</button>
+			</form>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+
+	<!--fin de Modal MEDIA DECODIFICADOR-->
 
 <!--NAV-->
-	<nav class="navbar"> <a href="https://www.softwareone.com/es-es" class="navbar-link" target="_blank"><img
-				src="img/logo/swo_logo1.png" alt="logo"></a> <a href="#" class="navbar-link" id="instrucciones"
-			data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="img/icons/info.png" alt="info"
-				id="info"></a> </nav>
+	<nav class="navbar"> 
+		<a href="https://www.softwareone.com/es-es" class="navbar-link" target="_blank"><img src="img/logo/swo_logo1.png" alt="logo"></a> 
+<!--botón media--><button class="btn desplazar media-desplazar" data-bs-toggle="modal" data-bs-target="#decodificadorModal"><img src="img/icons/robot.png" alt=""></button>
+		<a href="#" class="navbar-link" id="instrucciones" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="img/icons/info.png" alt="info"	id="info"></a> 
+	</nav>
 
 	<nav class="vertical-nav">
 		<div class="decode-container hide">

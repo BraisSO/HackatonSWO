@@ -454,3 +454,58 @@ footer>div>section>a>img {
 ::-webkit-scrollbar-thumb {
   background-color: rgba(165, 17, 41, .7);
 }
+
+
+/* MEDIA QUERIES */
+@media (max-height:865px) {
+
+  .card{
+    font-size: small;
+  }
+}
+
+
+
+.media-desplazar{
+  display: none;
+}
+
+
+
+@media (max-width:880px) {
+
+  .card{
+    font-size: small;
+  }
+  .vertical-nav{
+    display: none;
+  }
+  .media-desplazar{
+    display: block;
+  }
+  .desplazar {
+    width: 3em;
+    height: 3em;
+  }
+  .desplazar img {
+    width: 2em;
+    margin: -1em;
+    padding: 0;
+  }
+}
+
+@media (max-width:600px) {
+
+  .card{
+    font-size: xx-small;
+  }
+  .background1 h1{
+    text-align: center;
+  }
+  
+  .background4 {
+    display: flex;
+    align-items: center;
+    flex-direction: column
+  }
+}

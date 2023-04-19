@@ -51,4 +51,4 @@ $(document).ready(function () {
 });
 
 //Modal 
-$(document).ready(function () { $('.modal').modal('toggle') });
+$(document).ready(function () { $('#staticBackdrop').modal('toggle') });
