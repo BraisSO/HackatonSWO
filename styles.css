@@ -139,9 +139,6 @@ body{
 }
 .background1 {
   background-image: url(img/background/bg_pc.png);
-  background-size: cover;
-  background-position: center center;
-  height: 100vh;
   margin-bottom: 5vh;
   display:flex;
   flex-direction: column;
