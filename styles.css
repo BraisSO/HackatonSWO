@@ -228,6 +228,15 @@ h2 {
   min-width: 100%;
 }
 
+.card-title{
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 2.5px 8px 2.5px 8px;
+  font-weight: bold;
+}
+
+
 .card-body {
   text-align: justify;
 }
