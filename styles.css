@@ -241,7 +241,7 @@ h2 {
   text-align: justify;
 }
 
-.card-body:last-child {
+.card-body>p:not(.card-text), .arrow-text {
   text-align: center;
 }
 
@@ -261,13 +261,9 @@ h2 {
   justify-content: space-between;
 }
 
-.card-body>p:not(.card-text) {
-  text-align: center;
-}
 
-.card-body {
-  text-align: justify;
-}
+
+
 
 /* CARD HTML CSS*/
 
@@ -294,6 +290,7 @@ h2 {
   align-items: center;
   justify-content: space-around;
   flex-direction: row;
+  margin-bottom: 1em;
 }
 
 
