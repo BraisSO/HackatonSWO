@@ -202,7 +202,8 @@ color:cadetblue;
 							<h5 class="card-title">Python</h5>
 							<p class="card-text">Algo ha pasado en este código y nos faltan datos para poder obtener la
 								<i>“flag”</i> de este ejercicio, pensad qué resultado necesitamos y cómo podríamos
-								llamar a los elementos necesarios.</p>
+								llamar a los elementos necesarios.
+							</p>
 						</div>
 						<div class="card-body">
 							<p>👉 <a href="https://www.online-python.com/Brg6EDKWHR" target="_blank"
@@ -212,44 +213,79 @@ color:cadetblue;
 				</div>
 			</div>
 
-			<div class="background background4">
+			<div class="background background3">
 				<div class="col-sm-3">
 					<div class="card">
-						<img src="img/cards/mail-card.jpg" class="card-img-top" alt="python">
+						<img src="img/cards/python-card.png" class="card-img-top" alt="python">
 						<div class="card-body">
-							<h5 class="card-title mb-4">Mail searching</h5>
-							<p class="card-text">Hemos conseguido una copia local de los correos electrónicos donde está
-								nuestra tercera flag, ahora toca agudizar el ojo y buscar cuál puede ser.</p>
-							<p class="card-text">Un trabajo muy importante para cualquier informático es leer y
-								discernir, todo lo que encuentras no tiene por qué ser la solución, hay que fijarse
-								bien, la verdad está ahí fuera.</p>
+							<h5 class="card-title">Python</h5>
+							<p class="card-text">Algo ha pasado en este código y nos faltan datos para poder obtener la
+								<i>“flag”</i> de este ejercicio, pensad qué resultado necesitamos y cómo podríamos
+								llamar a los elementos necesarios.
+							</p>
 							<div class="container-text-to-copy">
-								<p><i class="fa-solid fa-arrow-down"></i> Descarga el archivo y abrelo con tu navegador
-									<i class="fa-solid fa-arrow-down"></i></p>
-									<a href="documentos/TakeOutGmail.mbox" download>
-										<button class="btn copy-button">Descargar</button>
-									  </a>
+								<div class="text-to-copy text-to-copy-two">
+									<pre>
+halfKey1 = ['a','b','c','d','e','f','g','h','i'];
+halfKey2 = ['j','k','l','m','n'];
+
+completeKey = [];
+
+count = 0;
+
+a = 4;
+b = 6;
+resultado = 10;
+
+if resultado == a + b:
+
+	for x in range(2,len(halfKey1)-3):
+		
+		completeKey.insert(count, halfKey1[x]);
+		count+=1;
+		
+		for y in range(0,len(halfKey2)):
+		   
+			completeKey.insert(count, halfKey2[y]);
+			count +=1;
+			
+	print(completeKey);       
+	
+else:
+	
+	print("Sigue intentándolo");
+								</pre>
+								</div>
 							</div>
 						</div>
-					</div>
-
-					<div class="card" id="exercise4">
-						<img src="img/cards/reverse.jpg" class="card-img-top" alt="reverse">
-						<div class="card-body">
-							<h5 class="card-title">Ingeniería inversa</h5>
-							<p class="card-text">Una vez hemos pasado un software por un programa decodificador podemos
-								tener acceso
-								a su código fuente,
-								en este código ha sido escondida nuestra última flag pero, atención, no es tan fácil
-								como parece,
-								creo que hay más información a la que tenemos que prestar atención.</p>
+						<div class="card-copy-buttons">
+							<button class="btn copy-button-two"><img src="img/icons/copy.png" alt=""></button>
 						</div>
-						<p>👉 <a href="https://github.com/hackathon-swo/goldMedal" target="_blank"
-								class="card-link">Click aquí para ir a la página del último ejercicio</a></p>
+						<div class="card-body">
+							<p>👉 <a href="https://www.online-python.com/Brg6EDKWHR" target="_blank"
+									class="card-link">Usa el siguiente enlace para la resolución del ejercicio.</a></p>
+						</div>
 					</div>
 				</div>
 			</div>
+
+			<div class="card" id="exercise4">
+				<img src="img/cards/reverse.jpg" class="card-img-top" alt="reverse">
+				<div class="card-body">
+					<h5 class="card-title">Ingeniería inversa</h5>
+					<p class="card-text">Una vez hemos pasado un software por un programa decodificador podemos
+						tener acceso
+						a su código fuente,
+						en este código ha sido escondida nuestra última flag pero, atención, no es tan fácil
+						como parece,
+						creo que hay más información a la que tenemos que prestar atención.</p>
+				</div>
+				<p>👉 <a href="https://github.com/hackathon-swo/goldMedal" target="_blank" class="card-link">Click aquí
+						para ir a la página del último ejercicio</a></p>
+			</div>
 		</div>
+	</div>
+	</div>
 
 	</div>
 
