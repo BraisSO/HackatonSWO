@@ -49,3 +49,6 @@ $(document).ready(function () {
         $temp.remove();
     });
 });
+
+//Modal 
+$(document).ready(function () { $('.modal').modal('toggle') });

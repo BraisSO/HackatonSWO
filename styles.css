@@ -238,7 +238,7 @@ h2 {
   min-width: 100%;
 }
 
-.card-title{
+.card-title {
   background-color: rgba(255, 255, 255, 0.8);
   border-radius: 10px;
   width: fit-content;
@@ -251,7 +251,8 @@ h2 {
   text-align: justify;
 }
 
-.card-body>p:not(.card-text), .arrow-text {
+.card-body>p:not(.card-text),
+.arrow-text {
   text-align: center;
 }
 
@@ -308,16 +309,18 @@ h2 {
 
 
 /* INGENIERÍA INVERSA */
-#exercise4{
+#exercise4 {
   height: 35.55em;
 }
-.centrar{
+
+.centrar {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
 }
-.card-title{
+
+.card-title {
   align-self: flex-start;
 }
 
@@ -373,3 +376,36 @@ footer>div>section>a>img {
   width: 30px;
   height: auto;
 }
+
+/*MODAL*/
+.fade {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.modal-content {
+  background-color: rgba(69, 69, 69, .5);
+  color: white;
+}
+
+.carousel-item {
+  background-color: rgba(69, 69, 69, .5);
+  height: 30em;
+}
+
+.carousel-item-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  padding: 4em;
+  height: 100%;
+  text-align: justify;
+}
+
+.btn-close {
+  background-color: #fff;
+  }
