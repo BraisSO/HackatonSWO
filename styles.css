@@ -79,6 +79,34 @@ textarea[name="codigo"] {
   color: white;
 }
 
+/* TEXT ANIMATE*/
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  background: linear-gradient(
+      to right,
+      #fff 20%,
+      #00affa 30%,
+      #764ada 50%,
+      #00affa 70%,
+      #fff 80%
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 500% auto;
+  animation: textShine 5s ease-in-out infinite alternate;
+}
+
+@keyframes textShine {
+  0% {
+      background-position: 0% 50%;
+  }
+  100% {
+      background-position: 100% 50%;
+  }
+}
+
 /*ESTILOS NAVBAR VERTICAL Y HORIZONTAL*/
 body {
   background-color: black;
@@ -409,3 +437,20 @@ footer>div>section>a>img {
 .btn-close {
   background-color: #fff;
   }
+
+  /*SCROLLBAR*/
+  /* Cambiar el color de la barra de desplazamiento */
+::-webkit-scrollbar {
+  background-color: rgba(69, 69, 69, .5);
+  width: 12px;
+}
+
+/* Cambiar el color del riel de la barra de desplazamiento */
+::-webkit-scrollbar-track {
+  background-color: rgba(69, 69, 69, .5);
+}
+
+/* Cambiar el color del pulgar de la barra de desplazamiento */
+::-webkit-scrollbar-thumb {
+  background-color: rgba(165, 17, 41, .7);
+}
