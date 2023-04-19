@@ -1,3 +1,6 @@
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
 /*BARRA DE DECODIFICACIÓN LATERAL*/
 textarea[name="codigo"] {
   resize: none;
