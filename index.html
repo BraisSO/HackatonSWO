@@ -113,36 +113,40 @@
 		</div>
 	</div>
 
-		<!-- Modal MEDIA DECODIFICADOR---------------------------------------------------------->
+	<!-- Modal MEDIA DECODIFICADOR---------------------------------------------------------->
 
-<div class="modal fade" id="decodificadorModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog">
-	  <div class="modal-content">
-		
-		<div class="modal-body">
-			<form class="decode-form">
-				<div class="form-group mb-5">
-					<label for="code">Código:</label>
-					<textarea name="codigo" class="codigo" cols="80" rows="8"></textarea>
-					<div class="result"></div>
+	<div class="modal fade" id="decodificadorModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+		aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+
+				<div class="modal-body">
+					<form class="decode-form">
+						<div class="form-group mb-5">
+							<label for="code">Código:</label>
+							<textarea name="codigo" class="codigo" cols="80" rows="8"></textarea>
+							<div class="result"></div>
+						</div>
+						<button type="submit" class="btn boton-decoder decodificar">Decodificar</button>
+					</form>
 				</div>
-				<button type="submit" class="btn boton-decoder decodificar">Decodificar</button>
-			</form>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+				</div>
+			</div>
 		</div>
-		<div class="modal-footer">
-		  <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-		</div>
-	  </div>
 	</div>
-  </div>
 
 	<!--fin de Modal MEDIA DECODIFICADOR-->
 
-<!--NAV-->
-	<nav class="navbar"> 
-		<a href="https://www.softwareone.com/es-es" class="navbar-link" target="_blank"><img src="img/logo/swo_logo1.png" alt="logo"></a> 
-<!--botón media--><button class="btn desplazar media-desplazar bg-transparent" data-bs-toggle="modal" data-bs-target="#decodificadorModal"><img src="img/icons/robot.png" alt=""></button>
-		<a href="#" class="navbar-link" id="instrucciones" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img src="img/icons/info.png" alt="info"	id="info"></a> 
+	<!--NAV-->
+	<nav class="navbar">
+		<a href="https://www.softwareone.com/es-es" class="navbar-link" target="_blank"><img
+				src="img/logo/swo_logo1.png" alt="logo"></a>
+		<!--botón media--><button class="btn desplazar media-desplazar bg-transparent" data-bs-toggle="modal"
+			data-bs-target="#decodificadorModal"><img src="img/icons/robot.png" alt=""></button>
+		<a href="#" class="navbar-link" id="instrucciones" data-bs-toggle="modal" data-bs-target="#staticBackdrop"><img
+				src="img/icons/info.png" alt="info" id="info"></a>
 	</nav>
 
 	<nav class="vertical-nav">
@@ -178,19 +182,9 @@
 				<h5 class="card-title">HTML y CSS</h5>
 				<p class="card-text">Nos encontramos un código HTML y otro CSS los cuales deberemos copiar
 					en <a href="http://cubicfactory.com/jseditor/welcome/130/edit" target="_blank">esta
-						página</a>,
-					la primera prueba es discernir donde va cada uno de ellos, una vez que le demos a
-					ejecutar podemos
-					ver
-					que el código no se ejecuta correctamente. Ahora toca arreglarlo (el 90% de la tarea de
-					un
-					informático
-					siempre es resolver errores)</p>
-				<p class="card-text">Debemos tener en cuenta que todo debe ir indentado, es decir contenido uno dentro
-					de
-					otro, todo lo
-					que se
-					abra debe ser cerrado.</p>
+						página</a>.</p>
+				<p class="card-text">La prueba en este caso es discernir donde debe ir cada uno y encontrar las
+					<i>flags</i> ocultas en la página resultante.</p>
 				<div class="container-copy">
 					<div class="text-to-copy-one">
 						<pre>
@@ -395,6 +389,7 @@ else:
 					creo que hay más información a la que tenemos que prestar atención.</p>
 				<p>👉 <a href="https://github.com/hackathon-swo/goldMedal" target="_blank" class="card-link">Click aquí
 						para ir a la página del último ejercicio</a></p>
+				<p>👉<a href="https://cryptii.com/pipes/rot13-decoder" target="_blank" class="card-link">Decodificador ROT-13</a></p>
 			</div>
 		</div>
 	</div>
@@ -404,7 +399,8 @@ else:
 		<div class="container pt-3">
 			<section class="mb-4">
 				<a class="btn btn-link btn-floating btn-lg text-dark m-1" href="https://www.instagram.com/softwareone/"
-					role="button" data-mdb-ripple-color="dark" target="_blank"><img src="img/icons/instagram.png" alt="instagram"></a>
+					role="button" data-mdb-ripple-color="dark" target="_blank"><img src="img/icons/instagram.png"
+						alt="instagram"></a>
 				<a class="btn btn-link btn-floating btn-lg text-dark m-1"
 					href="https://www.linkedin.com/company/softwareone/?originalSubdomain=nl" role="button"
 					data-mdb-ripple-color="dark" target="_blank"><img src="img/icons/linkedin.png" alt="linkedin"></a>
