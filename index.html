@@ -314,34 +314,37 @@ color:cadetblue;
 				<div class="container-text-to-copy">
 					<div class="text-to-copy text-to-copy-two">
 						<pre>
-halfKey1 = ['a','b','c','d','e','f','g','h','i'];
-halfKey2 = ['j','k','l','m','n'];
+j = ['01', '10', '00', '01', '00', '11', '10']
+k = ['01', '11', '00', '00', '11', '11', '01']
+l = ['10', '01', '10', '01', '01', '01']
 
-completeKey = [];
+completeKey = ""
 
-count = 0;
+count = 0
 
-a = 4;
-b = 6;
-resultado = 10;
+a = 4
+b = 6
+resultado = 10
 
-if resultado == a + b:
+if resultado == ?+?:
+	for x in j:
+		completeKey += x
+		count += 1
 
-	for x in range(2,len(halfKey1)-3):
-		
-		completeKey.insert(count, halfKey1[x]);
-		count+=1;
-		
-		for y in range(0,len(halfKey2)):
+		if count > 3 and count <= 15:
+			for y in k:
+				completeKey += y
+				count += 1
 
-			completeKey.insert(count, halfKey2[y]);
-			count +=1;
-			
-	print(completeKey);       
-	
+				if count > 6 and count <= 11:
+					for z in l:
+						completeKey += z
+						count += 1
+
+	print(completeKey)
+
 else:
-	
-	print("Sigue intentándolo");
+	print("Sigue intentándolo")
 								</pre>
 					</div>
 				</div>
@@ -350,7 +353,7 @@ else:
 				<button class="btn copy-button-two"><img src="img/icons/copy.png" alt=""></button>
 			</div>
 			<div class="card-body">
-				<p>👉 <a href="https://www.online-python.com/Brg6EDKWHR" target="_blank" class="card-link">Usa el
+				<p>👉 <a href="https://www.online-python.com/JFiRdY8zLG" target="_blank" class="card-link">Usa el
 						siguiente enlace para la resolución del ejercicio.</a></p>
 			</div>
 		</div>
